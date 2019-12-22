@@ -1,0 +1,138 @@
+/* .img {
+    width: 300px;
+    height: 200px;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    height: 200px;
+    opacity: 0.5;
+    position: relative;
+}
+
+div{
+    overflow: hidden;
+}
+
+.ndhover{
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    opacity: 0;
+}
+
+.img img:hover  {
+    transition: 0.3s;
+    opacity: 1;
+    transform: scale(1.2);   
+  
+}
+
+/* 
+div:hover {
+    transition: 0.3s;
+    box-shadow: 0 0 20px 5px gray;
+} */
+
+/* 
+p {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+}
+body{
+  background:   #3f6184;
+}
+.all {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    
+}
+
+.container {
+    width: 25%;
+    height: 296px;
+    position: relative;
+}
+
+.container>div {
+    width: 396px;
+    height: 296px;
+}
+
+.container img {
+    width: 396px;
+    height: 296px;
+    object-fit: cover;
+}
+
+.layer {
+    display: flex;
+    flex-flow: column    wrap;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    background: rgba(63, 97, 132, 0.85);
+}
+
+.img-frame {
+    overflow: hidden;
+}
+
+.container:hover img {
+    transform: scale(1.5);
+    transition: linear .3s;
+}
+
+.container:hover .layer {
+    opacity: 0.8;
+} */
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    height: 900px;
+    display: flex;
+    flex-flow: column;
+}
+
+.top {
+    width: 100%;
+    height: 500px;
+    position: relative;
+    background-image: url(../asserts/images/back.jpg);      
+    background-attachment: fixed;
+}
+
+img {
+    top: 50px;
+    left: 300px;
+    width: 350px;
+    height: 600px;
+    position: absolute;
+   z-index: 1;
+}
+.img{
+    top: 62px;
+    left: 350px;
+    width: 236px;
+    height: 524px;
+    position: absolute;
+    z-index: 0;
+}
+
+.bottom {
+    width: 100%;
+    height: 200px;
+    background: white;
+}
